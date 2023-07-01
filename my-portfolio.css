@@ -1,0 +1,306 @@
+body{
+    background: rgb(255,98,98);
+    background: linear-gradient(90deg, rgba(255,98,98,1) 0%, rgba(48,38,158,1) 85%);
+    margin: 0px;
+}
+
+/*Header styling*/
+
+.nav-bar {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(47, 47, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-bar nav ul{
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+.nav-content{
+    display: flex;
+    font-size: 20px;
+}
+.nav-content a{
+    color: rgb(224, 136, 120);
+    text-decoration: none;
+}
+.nav-bar nav ul li {
+    color: rgb(224, 136, 120);
+    margin-left: 20px;
+    padding: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    transition: transform 0.75s;
+}
+.nav-bar nav ul li:hover a, .nav-content ul li:hover{
+    cursor: pointer;
+    background-color: rgb(224, 136, 120);
+    color: rgb(218, 219, 208);
+    border-radius: 50px;
+    font-family: 'Russo One', sans-serif;
+    transform: rotateZ(360deg);
+}
+.name {
+    margin: 0px;
+    margin-left: 65px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    color: rgb(226, 103, 226);
+    width: fit-content;
+    height: fit-content;
+    transition: 0.5ms;
+}
+.name:hover{
+    cursor: pointer;
+    color:aliceblue;
+    transform: scale(1.2);
+}
+
+/*Main content*/
+.intro-parent{
+    background-color: rgba(5, 31, 55, 0.433);
+    margin:20px;
+    margin-left: 25px;
+    margin-top: 200px;
+    padding: 40px;
+    color: rgb(210, 222, 255);
+    border: 0px solid rgb(51, 66, 117); 
+    border-radius: 50px;
+    width: 700px;
+    height: 220px;
+
+}
+.intro-box {
+    font-family: 'Righteous', cursive;
+}
+.developer{
+    width: 400px;
+    color: rgba(152, 152, 238, 0.926);
+    font-family: 'Russo One';
+    font-weight: lighter;
+    font-size: 40px;
+    text-shadow: 8px 8px 6px rgba(0, 0, 0, 0.5);
+
+}
+.intro-box label, .role{
+    text-shadow: 8px 8px 6px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    width: 600px;
+}
+.profile-photo{
+    border: 4px solid white;
+    border-radius: 50px;
+    background-color: rgba(234, 93, 93, 0.76);
+    width: 540px;
+    height: 470px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.profile-photo img{
+    border: 4px solid black;
+    border-radius: 50px;
+    width: 500px;
+    height: 463px;
+}
+.out-box{
+    display: flex;
+}
+.links{
+    margin-top: 130px;
+}
+.links img{
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 60px;
+    border: 5px solid rgb(254, 254, 254);
+    border-radius: 250px;
+    transition: transform 1s;
+}
+.links img:hover{
+    transform: rotateY(360deg);
+}
+#About{
+    margin-left: 15%;
+    
+}
+#About .intro-parent{
+    width: 70%;
+    height: fit-content;
+    margin-top: 130px;
+}
+#About .intro-parent h1{
+    margin-top: 0px;
+    color: rgb(235, 124, 105);
+    font-weight: light;
+    text-decoration: underline;
+}
+#About .intro-parent .about-content{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Skills div h1{
+    margin-top: 0px;
+    color: rgba(208, 161, 246, 0.87);
+    font-weight: light;
+    font-family: 'Russo One';
+    text-decoration: underline;
+    text-align: center;
+}
+#Skills{
+    margin-top: 200px;
+    width: 100%;
+}
+#Skills div{
+    width: 81pc;
+    margin-top: 0px;
+}
+.skills-img{
+    display: flex;
+}
+.skill img{
+    width: 100px;
+    height: 100px;
+}
+.soft-skills img{
+    margin-left: 7%;
+    width: 70pc;
+}
+.domains{
+    display: flex;
+}
+.domain img{
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-right: 120px;
+    width: 170px;
+    height: 150px;
+    border: 5px solid rgb(68, 68, 68);
+    border-radius: 60px;
+}
+#Projects .intro-parent{
+    font-family: 'Russo One';
+    text-decoration: overline;
+    width: 90%;
+    height: 2570px;
+}
+.project-content{
+    margin: 80px;
+    margin-top: 0px;
+}
+.project-left{
+    background-color: rgba(47, 47, 49, 0.664);
+    border: 6px solid rgba(237, 232, 237, 0.418);
+    border-radius: 110px;
+    padding: 30px;
+    margin-top: 70px;
+    display: flex;
+    float: left;
+}
+.project-right{
+    background-color: rgba(47, 47, 49, 0.664);
+    text-align: right;
+    border: 6px solid rgba(237, 232, 237, 0.418);
+    border-radius: 110px;
+    padding: 30px;
+    margin-top: 70px;
+    display: flex;
+    flex-flow:row-reverse;
+    float: right;
+}
+.project-left img{
+    margin-right: 200px;
+    border: 5px solid rgb(224, 136, 120);
+    border-radius: 50px;
+}
+.project-right img{
+    margin-left: 200px;
+    border: 5px solid rgb(116, 146, 243);
+    border-radius: 50px;
+}
+.project-left h1{
+    color: rgb(116, 146, 243);
+    text-decoration: underline;
+}
+.project-right h1{
+    color: rgb(133, 153, 220);
+    text-decoration: underline;
+}
+.project-content div div p em{
+    text-decoration: underline;
+}
+.project-content div div p{
+    font-weight: lighter;
+    font-size: large;
+}
+.contact{
+    background-color: rgba(5, 31, 55, 0.433);
+    margin-top: 60px;
+    margin-left: 35%;
+    color: rgb(210, 222, 255);
+    border: 0px solid rgb(51, 66, 117); 
+    border-radius: 50px;
+    width: 35%;
+    height: 390px;
+}
+.contact-content{
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 9pc;
+    width: 100px;
+}
+.contact-content form div{
+    margin: 20px;
+}
+.contact-content form div input, .contact-content form div textarea{
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 20px;
+    
+}
+.contact-content form div textarea{
+    height: 50px;
+}
+.contact-content input[type="submit"]{
+    background-color: rgb(230, 163, 69);
+    margin-left: 55px;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-family: 'Russo One';
+    color: rgb(34, 24, 24);
+
+}
+.contact-content input[type="submit"]:hover{
+    cursor: pointer;
+}
+.contact h1{
+    padding-top: 30px;
+    margin-left: 11pc;
+    font-family: 'Russo One';
+    color: rgb(240, 239, 236);
+    
+}
+.contact-links img{
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 60px;
+    border: 5px solid rgb(254, 254, 254);
+    border-radius: 250px;
+    transition: transform 1s;
+}
+.contact-links img:hover{
+    transform: rotateZ(360deg);
+}
